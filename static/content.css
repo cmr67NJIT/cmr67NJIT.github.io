@@ -48,6 +48,7 @@ h2 {
 }
 
 .flex-container3 > div {
+    padding-block-start: 10%;
     background-color: #f1f1f1;
     margin: 1px;
     padding: 2px;
@@ -55,7 +56,7 @@ h2 {
 }
 .flex-container4 {
     text-align: center;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     display: flex;
     background-color: white;
@@ -86,6 +87,7 @@ h2 {
 }
 
 div.gallery {
+    float:left;
     padding: 10px;
     margin: 10px;
     display: flex;
